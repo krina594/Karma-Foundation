@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+
+<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<title>Karma Foundation</title>
+		<!-- styles-->
+		<link rel="stylesheet" href="css/styles.min.css"/>
+		<link rel="stylesheet" href="assets/css/custom_style.css"/>
+		<!-- web-font loader-->
+		<script>
+			WebFontConfig = {
+
+				google: {
+
+					families: ['Quicksand:300,400,500,700', 'Permanent+Marker:400'],
+
+				}
+
+			}
+
+			function font() {
+
+				var wf = document.createElement('script')
+
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+				wf.type = 'text/javascript'
+				wf.async = 'true'
+
+				var s = document.getElementsByTagName('script')[0]
+
+				s.parentNode.insertBefore(wf, s)
+
+			}
+
+			font()
+		</script>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<!-- header start-->
+			<script src="js/header.js"></script> 
+			<!-- header end-->
+			<main class="main">
+				<section class="promo">
+					<div class="promo-slider">
+						<div class="promo-slider__item promo-slider__item--style-1">
+							<picture>
+								<source srcset="img/promo_1.jpg" media="(min-width: 992px)"/><img class="img--bg" src="img/promo_1.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-12">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>We help all people in need</span> <span>around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="promo-slider__item promo-slider__item--style-2">
+							<picture>
+								<source srcset="img/promo_2.jpg" media="(min-width: 992px)"/><img class="img--bg" src="img/promo_2.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-8 col-xl-7">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>Our Helping</span><br/><span>around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="promo-slider__item promo-slider__item--style-3">
+							<picture>
+								<source srcset="img/promo_3.jpg" media="(min-width: 992px)"/><img class="img--bg" src="img/promo_3.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>Karma Volounteers</span><br/><span>Around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<!-- slider nav start-->
+					<div class="slider__nav slider__nav--promo">
+						<div class="promo-slider__count"></div>
+						<div class="slider__arrows">
+							<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+							</div>
+							<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- slider nav end-->
+				</section>
+				<!-- promo start-->
+				<!--<section class="promo">
+					<div class="promo-slider">
+						<div class="promo-slider__item promo-slider__item--style-1">
+							<picture>
+								<source srcset="img/promo_1.jpg" media="(min-width: 835px)"/>
+								<source srcset="img/promo_1.jpg" media="(min-width: 376px)"/>
+								<img class="img--bg" src="img/promo_1.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-12">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>We help all people in need</span> <span>around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="promo-slider__item promo-slider__item--style-2">
+							<picture>
+								<source srcset="img/promo_2.jpg" media="(min-width: 835px)"/>
+								<source srcset="img/834promo_2.jpg" media="(min-width: 376px)"/><img class="img--bg" src="img/375promo_2.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-7">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>Our Helping</span><br/><span>around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="promo-slider__item promo-slider__item--style-3">
+							<picture>
+								<source srcset="img/promo_3.jpg" media="(min-width: 835px)"/>
+								<source srcset="img/834promo_3.jpg" media="(min-width: 376px)"/><img class="img--bg" src="img/375promo_3.jpg" alt="img"/>
+							</picture>
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-8 offset-xl-2">
+										<div class="align-container">
+											<div class="align-container__item">
+												<div class="promo-slider__wrapper-1">
+													<h2 class="promo-slider__title"><span>Karma Volounteers</span><br/><span>Around the world.</span></h2>
+												</div>
+												<div class="promo-slider__wrapper-2">
+													<p class="promo-slider__subtitle">Gray eel-catfish longnose whiptail catfish smalleye squaretail queen danio unicorn fish shortnose greeneye fusilier fish silver carp nibbler sharksucker tench lookdown catfish</p>
+												</div>
+												<div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="#">Discover</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="slider__nav slider__nav--promo">
+						<div class="promo-slider__count"></div>
+						<div class="slider__arrows">
+							<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+							</div>
+							<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					
+				</section>-->
+				<!-- promo end-->
+				<!-- about us start-->
+				<section class="section about-us" id="about">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-6">
+								<div class="heading heading--primary"><span class="heading__pre-title">About Us</span>
+									<h2 class="heading__title"><span>Help is Our</span> <span>Main Goal</span></h2>
+								</div>
+								<p><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</strong></p>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><a class="button button--primary" href="#">More About</a>
+							</div>
+							<div class="col-lg-6 col-xl-5 offset-xl-1">
+								<div class="info-box"><img class="img--layout" src="img/about_layout.png" alt="img"/><img class="img--bg" src="img/about-us.jpg" alt="img"/>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- about us end-->
+				
+				<!-- causes start-->
+				<section class="section about--front-2 background--brown">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-4">
+								<div class="heading heading--primary"><span class="heading__pre-title">About Us</span>
+									<h2 class="heading__title no-margin-bottom"><span>Help is Our</span> <span>Main Goal Ever</span></h2>
+								</div><a class="button button--primary d-none d-xl-inline-block" href="#">More about</a>
+							</div>
+							<div class="col-xl-8">
+								<p><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</strong></p>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+								<div class="row margin-top offset-margin">
+									<div class="col-md-4 text-md-left text-center">
+										<div class="counter-item counter-item--style-3">
+											<div class="counter-item__top">
+												<h6 class="counter-item__title">People We Helped on 2020</h6>
+											</div>
+											<div class="counter-item__lower"><span class="js-counter">200</span><span>k</span></div>
+										</div>
+									</div>
+									<div class="col-md-4 text-md-left text-center">
+										<div class="counter-item counter-item--style-3">
+											<div class="counter-item__top">
+												<h6 class="counter-item__title">Donation Collected</h6>
+											</div>
+											<div class="counter-item__lower"><span class="js-counter">65</span><span>Lk</span></div>
+										</div>
+									</div>
+									<div class="col-md-4 text-md-left text-center">
+										<div class="counter-item counter-item--style-3">
+											<div class="counter-item__top">
+												<h6 class="counter-item__title">Events Organized</h6>
+											</div>
+											<div class="counter-item__lower"><span class="js-counter">100</span><span>+</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 text-center"><a class="button button--primary d-inline-block d-xl-none margin-top" href="#">More about</a></div>
+						</div>
+					</div>
+				</section>
+				<!-- causes end-->
+				<!-- projects start-->
+				<section class="section">
+					<div class="container">
+						<div class="row align-items-end margin-bottom">
+							<div class="col-sm-6">
+								<div class="heading heading--primary"><span class="heading__pre-title">What we Did</span>
+									<h2 class="heading__title no-margin-bottom"><span>Karma Assistance</span> <span>Projects</span></h2>
+								</div>
+							</div>
+							<div class="col-sm-6 text-sm-right">
+								<!-- slider nav start-->
+								<div class="slider__nav projects-slider__nav">
+									<div class="slider__arrows">
+										<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+										</div>
+										<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
+								<!-- slider nav end-->
+							</div>
+						</div>
+					</div>
+					<div class="projects-slider">
+						<div class="projects-slider__item">
+							<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+								<div class="projects-masonry__img"><img class="img--bg" src="img/projects-slider_1.jpg" alt="img"/>
+									<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #fbc70d;">Jeevan Shrishti
+</span>
+										<h3 class="projects-masonry__title"> <a href="#">More than One Life Changed</a></h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+										<div class="projects-masonry__details-holder">
+											<div class="projects-masonry__details-item"><span>Goal: </span><span>25,000 <i class="fa fa-rupee"></i></span></div>
+											<div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projects-slider__item">
+							<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+								<div class="projects-masonry__img"><img class="img--bg" src="img/projects-slider_2.jpg" alt="img"/>
+									<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #19cdf9;">Shuruaat</span>
+										<h3 class="projects-masonry__title"> <a href="#">Karma for Help</a></h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										<div class="projects-masonry__details-holder">
+											<div class="projects-masonry__details-item"><span>Goal: </span><span>25,000 <i class="fa fa-rupee"></i></span></div>
+											<div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projects-slider__item">
+							<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+								<div class="projects-masonry__img"><img class="img--bg" src="img/projects-slider_3.jpg" alt="img"/>
+									<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #fb340d;">Shishu Gruh
+</span>
+										<h3 class="projects-masonry__title"> <a href="#">He Needs Your Protection</a></h3>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+										<div class="projects-masonry__details-holder">
+											<div class="projects-masonry__details-item"><span>Goal: </span><span>35,000 <i class="fa fa-rupee"></i></span></div>
+											<div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projects-slider__item">
+							<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2">
+								<div class="projects-masonry__img"><img class="img--bg" src="img/projects-slider_2.jpg" alt="img"/>
+									<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #F36F8F;">Correction Home
+</span>
+										<h3 class="projects-masonry__title"> <a href="#">More than One Life Changed</a></h3>
+										<p>Rockweed gunnel; candlefish mail-cheeked fish, yellowtail snapper cuskfish elasmobranch seamoth triggerfish gar </p>
+										<div class="projects-masonry__details-holder">
+											<div class="projects-masonry__details-item"><span>Goal: </span><span>25 000$</span></div>
+											<div class="projects-masonry__details-item"><span>Date: </span><span>23 Jan'19</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- projects end-->
+				<!-- text section start-->
+				<section class="section text-section padding-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 text-center">
+								<h2 class="text-section__heading">Volunteer</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-8 offset-lg-4 col-xl-7 offset-xl-4">
+								<h3 class="text-section__title">Delivering help and hope <br/>to children through sponsorship.</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><a class="button button--primary" href="#">Become a Volunteer</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- text section end-->
+				
+				<!-- events start-->
+				<section class="section events padding-top"><img class="events__bg" src="img/events_bg.png" alt="img"/>
+					<div class="container">
+						<div class="row margin-bottom">
+							<div class="col-12">
+								<div class="heading heading--primary heading--center"><span class="heading__pre-title">Events</span>
+									<h2 class="heading__title"><span>Karma Holds</span> <span>for You</span></h2>
+									<p class="no-margin-bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-lg-4">
+								<div class="event-item">
+									<div class="event-item__img"><img class="img--bg" src="img/event_1.jpg" alt="img"/></div>
+									<div class="event-item__content">
+										<h6 class="event-item__title"><a href="#">COVID Relief</a></h6>
+										<p><b>Ahmedabad</b> Gujarat, India</p>
+										<p><b>10 May,</b> 2019</p>
+										<p><b>10:00 AM - 18:00 PM,</b> Everyday</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4">
+								<div class="event-item">
+									<div class="event-item__img"><img class="img--bg" src="img/event_2.jpg" alt="img"/></div>
+									<div class="event-item__content">
+										<h6 class="event-item__title"><a href="#">Food Distribution</a></h6>
+										<p><b>Ahmedabad</b> Gujarat, India</p>
+										<p><b>10 May,</b> 2019</p>
+										<p><b>10:00 AM - 18:00 PM,</b> Everyday</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4">
+								<div class="event-item">
+									<div class="event-item__img"><img class="img--bg" src="img/event_3.jpg" alt="img"/></div>
+									<div class="event-item__content">
+										<h6 class="event-item__title"><a href="#">Working for Corona Warriors</a></h6>
+										<p><b>Ahmedabad</b> Gujarat, India</p>
+										<p><b>10 May,</b> 2019</p>
+										<p><b>10:00 AM - 18:00 PM,</b> Everyday</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 text-center"><a class="button button--primary" href="#">View all events</a></div>
+						</div>
+					</div>
+				</section>
+				<!-- events end-->
+				<!-- testimonials style-2 start-->
+				<section class="section testimonials testimonials--style-3">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-4">
+								<div class="row align-items-end">
+									<div class="col-sm-8 col-md-6 col-xl-12">
+										<div class="heading heading--primary"><span class="heading__pre-title">Testimonials</span>
+											<h2 class="heading__title"><span>What People</span><br/><span>Says About Us</span></h2>
+										</div>
+									</div>
+									<div class="col-sm-4 col-md-6 col-xl-12">
+										<!-- slider nav start-->
+										<div class="slider__nav testimonials-style-3__nav">
+											<div class="slider__arrows">
+												<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+												</div>
+												<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+												</div>
+											</div>
+										</div>
+										<!-- slider nav end-->
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-8">
+								<div class="testimonials__slider-holder">
+									<div class="testimonials-slider testimonials-slider--style-3">
+										<div class="testimonials-slider__item">
+											<div class="testimonials-slider__icon">“</div>
+											<div class="testimonials-slider__text">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+												<div class="testimonials-slider__author"><span class="testimonials-slider__name">Ishita Sharma, </span><span class="testimonials-slider__position">Volunteer</span></div>
+											</div>
+										</div>
+										<div class="testimonials-slider__item">
+											<div class="testimonials-slider__icon">“</div>
+											<div class="testimonials-slider__text">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+												<div class="testimonials-slider__author"><span class="testimonials-slider__name">Nikunj Desai, </span><span class="testimonials-slider__position">Volunteer</span></div>
+											</div>
+										</div>
+										<div class="testimonials-slider__item">
+											<div class="testimonials-slider__icon">“</div>
+											<div class="testimonials-slider__text">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also.</p>
+												<div class="testimonials-slider__author"><span class="testimonials-slider__name">Hardik Patel, </span><span class="testimonials-slider__position">Volunteer</span></div>
+											</div>
+										</div>
+										<div class="testimonials-slider__item">
+											<div class="testimonials-slider__icon">“</div>
+											<div class="testimonials-slider__text">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+												<div class="testimonials-slider__author"><span class="testimonials-slider__name">Chintan Oza, </span><span class="testimonials-slider__position">Volunteer</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- testimonials style-2 end-->
+				<!-- blog start-->
+				<section class="section blog blog--front_3"><img class="blog__bg" src="img/blog_bg-2.png" alt="img"/>
+					<div class="container">
+						<div class="row margin-bottom">
+							<div class="col-12">
+								<div class="heading heading--primary heading--center"><span class="heading__pre-title">Events</span>
+									<h2 class="heading__title no-margin-bottom"><span>Karma</span> <span>Events</span></h2>
+								</div>
+							</div>
+						</div>
+						<div class="row offset-margin">
+							<div class="col-md-6 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img"><img class="img--bg" src="img/blog_1.jpg" alt="img"/><span class="blog-item__badge" style="background-color: #19cdf9;">Ahmedabad Book Club</span></div>
+									<div class="blog-item__content">
+										<h6 class="blog-item__title"><a href="#">4th Anniversary</a></h6>
+										<p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail canthigaster</p>
+										<div class="blog-item__details"><span class="blog-item__date">23 Jan, 2020</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img"><img class="img--bg" src="img/blog_4.png" alt="img"/><span class="blog-item__badge" style="background-color: #fb340d;">Gujarati Book Club</span></div>
+									<div class="blog-item__content">
+										<h6 class="blog-item__title"><a href="#">UMA Shankar Joshi's Birthday Celebration</a></h6>
+										<p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail canthigaster</p>
+										<div class="blog-item__details"><span class="blog-item__date">23 Feb, 2020</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xl-4">
+								<div class="blog-item blog-item--style-1">
+									<div class="blog-item__img"><img class="img--bg" src="img/blog_7.jpg" alt="img"/><span class="blog-item__badge" style="background-color: #fbc70d;">Pi Club</span></div>
+									<div class="blog-item__content">
+										<h6 class="blog-item__title"><a href="#">Story Reading Shruti Nawab
+</a></h6>
+										<p>Sharksucker sea toad candiru rocket danio tilefish stingray deepwater stingray Sacramento splittail canthigaster</p>
+										<div class="blog-item__details"><span class="blog-item__date">26 Feb, 2020</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- blog end-->
+				<!-- donors start-->
+				
+				<!-- donors end-->
+				<!-- instagram start-->
+				<section class="section instagram">
+					<div class="container">
+						<div class="row align-items-end margin-bottom">
+							<div class="col-md-7 col-lg-8">
+								<div class="heading heading--primary"><span class="heading__pre-title">Testimonials</span>
+									<h2 class="heading__title no-margin-bottom"><span># Karmacharity</span></h2>
+								</div>
+							</div>
+							<div class="col-md-5 col-lg-4 text-md-right">
+								<!-- slider nav start-->
+								<div class="slider__nav instagram-slider__nav">
+									<div class="slider__arrows">
+										<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+										</div>
+										<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
+								<!-- slider nav end-->
+							</div>
+						</div>
+					</div>
+					<div class="instagram-slider">
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_1.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_2.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_3.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_4.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span></a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_5.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_6.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a class="instagram-slider__item" href="https://www.instagram.com/thekarmafoundation/" target="_blank">
+							<img class="img--bg" src="img/ig_4.jpg" alt="img"/>
+							<span class="instagram-slider__icon">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+							<span class="instagram-slider__icon-hover">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+				</section>
+				<!-- instagram end-->
+				<section class="section donors donors--style-2 no-padding-top no-padding-bottom">
+					<div class="container">
+						<div class="row margin-bottom">
+							<div class="col-12">
+								<div class="heading heading--primary heading--center"><span class="heading__pre-title">Donors</span>
+									<h2 class="heading__title no-margin-bottom"><span>Who Help</span> <span>Us</span></h2>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<!-- donors slider start-->
+								<div class="slider-holder">
+									<div class="donors-slider donors-slider--style-1">
+										<div class="donors-slider__item">
+											<div class="donors-slider__img"><img src="img/donor_1.png" alt="donor"/></div>
+										</div>
+										<div class="donors-slider__item">
+											<div class="donors-slider__img"><img src="img/donor_2.png" alt="donor"/></div>
+										</div>
+										<div class="donors-slider__item">
+											<div class="donors-slider__img"><img src="img/donor_3.png" alt="donor"/></div>
+										</div>
+										<div class="donors-slider__item">
+											<div class="donors-slider__img"><img src="img/donor_4.png" alt="donor"/></div>
+										</div>
+									</div>
+								</div>
+								<!-- donors slider end-->
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- donors end-->
+				<!-- bottom bg start-->
+				<section class="bottom-background">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="bottom-background__img"><img src="img/bottom-bg.png" alt="img"/></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<!-- footer start-->
+			<script src="js/footer.js"></script> 
+			<!-- footer end-->
+		</div>
+		<!-- libs-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/libs.min.js"></script>
+		<!-- scripts-->
+		<script src="js/common.min.js"></script>
+	</body>
+
+
+</html>
